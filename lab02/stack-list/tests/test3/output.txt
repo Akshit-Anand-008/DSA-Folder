@@ -1,0 +1,7 @@
+PUSH X -> Blocks: 1 | [1] 
+PUSH Y -> Blocks: 1 | [2] 
+PUSH Z -> Blocks: 1 | [3] 
+POP Z  -> Blocks: 1 | [2] 
+POP Y  -> Blocks: 1 | [1] 
+POP X  -> Blocks: 1 | [0] 
+POP NONE -> Blocks: 1 | [0]

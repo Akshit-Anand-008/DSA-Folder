@@ -1,0 +1,14 @@
+Process P1: Arrival = 0, Burst = 12, CT = 39, TAT = 39, WT = 27
+Process P2: Arrival = 2, Burst = 6, CT = 23, TAT = 21, WT = 15
+Process P3: Arrival = 4, Burst = 3, CT = 11, TAT = 7, WT = 4
+Process P4: Arrival = 5, Burst = 8, CT = 47, TAT = 42, WT = 34
+Process P5: Arrival = 8, Burst = 2, CT = 21, TAT = 13, WT = 11
+Process P6: Arrival = 10, Burst = 15, CT = 82, TAT = 72, WT = 57
+Process P7: Arrival = 12, Burst = 4, CT = 31, TAT = 19, WT = 15
+Process P8: Arrival = 15, Burst = 9, CT = 77, TAT = 62, WT = 53
+Process P9: Arrival = 18, Burst = 5, CT = 65, TAT = 47, WT = 42
+Process P10: Arrival = 20, Burst = 1, CT = 48, TAT = 28, WT = 27
+Process P11: Arrival = 22, Burst = 7, CT = 68, TAT = 46, WT = 39
+Process P12: Arrival = 25, Burst = 10, CT = 79, TAT = 54, WT = 44
+Average Turnaround Time = 37.50
+Average Waiting Time = 30.67

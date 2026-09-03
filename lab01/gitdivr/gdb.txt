@@ -1,0 +1,10 @@
+Reading symbols from ./a.out...
+Starting program: /home/akshit/DSA/gitdivr/a.out < input
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/nix/store/l8si8gnvvq93yzms1jsgh5aixyf9rl5x-glibc-2.42-67/lib/libthread_db.so.1".
+
+Program received signal SIGSEGV, Segmentation fault.
+0x00005555555552e4 in findDivergenceOptimized (headA=0x5555555893e0, headB=0x555555589440) at git-divergence.cpp:40
+40	        while (diff) { itA = itA->next; }
+#0  0x00005555555552e4 in findDivergenceOptimized (headA=0x5555555893e0, headB=0x555555589440) at git-divergence.cpp:40
+#1  0x000055555555576e in main (argc=1, argv=0x7fffffffd3b8) at main.cpp:71

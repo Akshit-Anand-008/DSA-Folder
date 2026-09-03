@@ -1,0 +1,5 @@
+Process P1: Arrival = 0, Burst = 5, CT = 9, TAT = 9, WT = 4
+Process P2: Arrival = 1, Burst = 3, CT = 8, TAT = 7, WT = 4
+Process P3: Arrival = 2, Burst = 1, CT = 5, TAT = 3, WT = 2
+Average Turnaround Time = 6.33
+Average Waiting Time = 3.33

@@ -1,0 +1,4 @@
+POP NONE -> Blocks: 0 | 
+PUSH A -> Blocks: 1 | [1] 
+POP A  -> Blocks: 1 | [0] 
+POP NONE -> Blocks: 1 | [0]

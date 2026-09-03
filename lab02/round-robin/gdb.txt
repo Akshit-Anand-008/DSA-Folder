@@ -1,0 +1,5 @@
+Reading symbols from ./a.out...
+Starting program: /home/akshit/DSA/lab03-practice/round-robin/a.out < input
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/nix/store/0d8g8n0a11v6f5m2h416ajyxmnkwc3md-glibc-2.42-67/lib/libthread_db.so.1".
+[Inferior 1 (process 13403) exited normally]

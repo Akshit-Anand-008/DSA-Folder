@@ -1,0 +1,6 @@
+5
+PUSH A
+PUSH B
+PUSH C
+PUSH D
+POP
