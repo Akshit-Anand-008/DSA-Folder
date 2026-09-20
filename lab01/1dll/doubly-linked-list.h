@@ -8,8 +8,7 @@ struct node {
 
 class list {
 private:
-    node sentinel;  // sentinel.next is head, sentinel.prev is tail
-    int sz;         // number of elements (does not count the sentinel)
+    node sentinel;  // sentinel.next is head, sentinel.prev is tail int sz;         // number of elements (does not count the sentinel)
     bool flipped;   // true => next and prev are to be read in the opposite sense
 public:
     list() {
@@ -17,6 +16,8 @@ public:
         sentinel.next = sentinel.prev = &sentinel;
         sz = 0;
         flipped = false;
+        // this constructor is not initialising an empty list with nullptr.
+        // It is actually using memory
     }
     node* end() { return &sentinel; }
     void insert_before(node* p, int v);

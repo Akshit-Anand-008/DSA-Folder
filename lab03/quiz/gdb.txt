@@ -1,0 +1,24 @@
+Breakpoint 1, largestRectangleOptimal (heights=std::vector of length 2, capacity 2 = {...}) at largest-rectangle.cpp:22
+22	    int len = heights.size();
+23	    long long ans = 0;
+24	    std::stack<int> S;
+25	    for (int i = 0; i < len; i++) { 
+1: S = std::stack wrapping: std::deque with 0 elements
+27	        while(!S.empty() && heights[S.top()] >= heights[i]){ 
+1: S = std::stack wrapping: std::deque with 0 elements
+35	        S.push(i);
+1: S = std::stack wrapping: std::deque with 0 elements
+25	    for (int i = 0; i < len; i++) { 
+1: S = std::stack wrapping: std::deque with 1 element = {0}
+27	        while(!S.empty() && heights[S.top()] >= heights[i]){ 
+1: S = std::stack wrapping: std::deque with 1 element = {0}
+35	        S.push(i);
+1: S = std::stack wrapping: std::deque with 1 element = {0}
+25	    for (int i = 0; i < len; i++) { 
+1: S = std::stack wrapping: std::deque with 2 elements = {0, 1}
+38	    while(!S.empty()){
+1: S = std::stack wrapping: std::deque with 2 elements = {0, 1}
+39	        long long area = S.top();
+1: S = std::stack wrapping: std::deque with 2 elements = {0, 1}
+40	        ans = max(area, ans);
+1: S = std::stack wrapping: std::deque with 2 elements = {0, 1}
