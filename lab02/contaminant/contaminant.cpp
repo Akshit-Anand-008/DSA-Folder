@@ -1,38 +1,36 @@
 #include "contaminant.h"
 
-int recover_original(Node*& head, const string& pattern) {
+bool match(vector<Node*>& S, const string& pattern){
     int len = pattern.size();
-    vector<Node*> V;
+    int size = S.size();
+    for (int i = 0; i < len; i++) {
+        if(pattern[i] != S[size - len + i]->base){ return false; }
+    }
+    return true;
+}
+
+int recover_original(Node*& head, const string& pattern) {
+    vector<Node*> S;
+    int len = pattern.size();
     Node* ptr = head;
-    while (ptr != nullptr) {
-        Node* next_node = ptr->next;
-        V.push_back(ptr);
-        if (V.size() >= pattern.size()) {
-            bool flag = true;
-            int i = 0;
-            int j = V.size() - pattern.size();
-            while (i < pattern.size()) {
-                if (pattern[i] != V[j]->base) {
-                    flag = false;
-                    break;
-                }
-                i++;
-                j++;
-            }
-            if (flag) {
-                for (int i = 0; i < pattern.size(); i++) {
-                    delete V[V.size() - 1];
-                    V.pop_back();
-                }
+    while(ptr != nullptr){
+        S.push_back(ptr);
+        ptr = ptr ->next;
+        while(S.size() >= len && match(S, pattern)){
+            for (int i = 0; i < len; i++) {
+                Node* last_ele = S[S.size()-1];
+                delete last_ele;
+                S.pop_back();
             }
         }
-        // printf("V.size():%zu\n", V.size());
-        // printf("ptr->base:%c\n\n", ptr->base);
-        ptr = next_node;
     }
-    head = V[0];
-    for (int i = 0; i < V.size() - 1; i++) { V[i]->next = V[i + 1]; }
-    V[V.size() - 1]->next = nullptr;
-    // printf("Vector V\n");
-    return V.size();
+    if(S.size() == 0){
+        head = nullptr;
+        return 0;
+    }
+
+    head = S[0];
+    for (int i = 1; i < S.size(); i++) { S[i-1] -> next = S[i]; }
+    S[S.size()-1]->next = nullptr;
+    return S.size();
 }
