@@ -1,45 +1,47 @@
 #include "largest-rectangle.h"
 
 long long largestRectangleBruteForce(const vector<int> &heights) {
-    // printf("brute\n");
+    vector<int> v = {0};
+    for (const int& i : heights) {v.push_back(i);}
+    v.push_back(0);
     long long ans = 0;
-    int len = heights.size();
-    for(int i=0; i<len; i++){
-        int left = i;
-        int right = i;
-        while(left >= 1 && heights[left-1] >= heights[i]){ left--; }
-        while(right < len-1 && heights[right+1] >= heights[i]){ right++; }
-        long long area = heights[i]*(right - left + 1);
-        ans = max(area, ans);
-        // printf("area:%i\n",area);
+    int len = v.size();
+    for (int i = 1; i < len-1; i++) {
+        int lt = i;
+        int rt = i;
+        while(lt >= 0){ 
+            if(v[lt] < v[i]){ break; }
+            lt--;
+        }
+        while(rt < len){
+            if(v[rt]<v[i]){break;} 
+            rt++;
+        }
+        long long area = (rt - lt - 1) * v[i];
+        ans = max(area,ans);
     }
     return ans;
 }
 
 long long largestRectangleOptimal(const vector<int> &heights) {
-    // printf("op\n");
-    int len = heights.size();
+    vector<int> v = {0};
+    for (const int& i : heights) {v.push_back(i);}
+    v.push_back(0);
+
+    stack<int> s;
+    s.push(0);
+    long long area = 0;
     long long ans = 0;
-    std::stack<int> S;
-    for (int i = 0; i < len; i++) { 
-        while(!S.empty() && heights[S.top()] >= heights[i]){ 
-            int el = S.top();
-            S.pop();
-            int left = S.empty() ? -1 : S.top();
-            long long area = heights[el]*(i - left -1);
-            // printf("area:%i\n",area);
-            ans = max(area, ans);
+    for (int i = 1; i < v.size(); i++) {
+        while(!s.empty() && (v[s.top()] > v[i])){
+            int top = s.top();
+            s.pop();
+            int lt = s.top();
+            int rt = i;
+            area = (rt - lt - 1)*v[top];
+            ans = max(ans, area);
         }
-        S.push(i);
-    }
-    // this won'r work as well as this assumes that the elements are adjacent
-    while(!S.empty()){
-        int el = S.top();
-        S.pop();
-        int left = S.empty() ? -1 : S.top();
-        long long area = heights[el]*(len - left -1);
-        // printf("area:%i\n",area);
-        ans = max(area, ans);
+        s.push(i);
     }
     return ans;
 }
