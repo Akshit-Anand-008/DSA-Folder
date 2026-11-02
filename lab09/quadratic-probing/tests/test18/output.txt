@@ -1,0 +1,16 @@
+Inserted
+Inserted
+Inserted
+Insertion failed
+Deleted
+Inserted
+Updated
+4
+0: 0
+1: -8
+2: EMPTY
+3: EMPTY
+4: 32
+5: EMPTY
+6: EMPTY
+7: EMPTY

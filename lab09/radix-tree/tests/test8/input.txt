@@ -1,0 +1,11 @@
+10
+I flower
+I flow
+I flight
+P flo
+P flig
+S flower
+D flow
+P flow
+S flower
+S flow

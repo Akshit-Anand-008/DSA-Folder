@@ -1,0 +1,10 @@
+Reading symbols from ./a.out...
+Starting program: /home/akshit/DSA/lab02/contaminant/a.out < input
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000555555556aef in recover_original (head=@0x7fffffffe258: 0x55555558b080, pattern="GGA") at contaminant.cpp:35
+35	        ptr = ptr->next;
+#0  0x0000555555556aef in recover_original (head=@0x7fffffffe258: 0x55555558b080, pattern="GGA") at contaminant.cpp:35
+#1  0x000055555555642d in main (argc=1, argv=0x7fffffffe3f8) at main.cpp:41

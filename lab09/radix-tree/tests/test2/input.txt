@@ -1,0 +1,11 @@
+10
+I apple
+I application
+I apply
+S apple
+S app
+P app
+D application
+S application
+S apply
+S apple

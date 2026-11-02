@@ -1,0 +1,39 @@
+Inserted
+Inserted
+Inserted
+Inserted
+Inserted
+0: 28 (2)
+1: 9 (2)
+2: 39 (3)
+3: EMPTY
+4: EMPTY
+5: EMPTY
+6: EMPTY
+7: EMPTY
+8: 8 (0)
+9: 18 (1)
+Deleted
+0: 9 (1)
+1: 39 (2)
+2: EMPTY
+3: EMPTY
+4: EMPTY
+5: EMPTY
+6: EMPTY
+7: EMPTY
+8: 18 (0)
+9: 28 (1)
+Deleted
+0: 39 (1)
+1: EMPTY
+2: EMPTY
+3: EMPTY
+4: EMPTY
+5: EMPTY
+6: EMPTY
+7: EMPTY
+8: 28 (0)
+9: 9 (0)
+0
+9

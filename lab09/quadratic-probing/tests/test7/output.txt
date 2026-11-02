@@ -1,0 +1,27 @@
+Inserted
+Inserted
+Inserted
+14
+Deleted
+Inserted
+Updated
+5
+0: EMPTY
+1: EMPTY
+2: EMPTY
+3: EMPTY
+4: EMPTY
+5: -90
+6: EMPTY
+7: EMPTY
+8: EMPTY
+9: EMPTY
+10: -9
+11: -66
+12: EMPTY
+13: EMPTY
+14: DELETED
+15: EMPTY
+16: EMPTY
+17: EMPTY
+18: EMPTY

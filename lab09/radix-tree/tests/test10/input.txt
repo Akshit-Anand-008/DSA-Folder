@@ -1,0 +1,13 @@
+12
+I a
+I ab
+I abc
+I abd
+P ab
+S a
+D ab
+S ab
+P ab
+D abc
+P abc
+S abd

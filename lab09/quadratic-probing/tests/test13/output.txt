@@ -1,0 +1,16 @@
+Inserted
+Inserted
+Inserted
+Inserted
+Insertion failed
+Insertion failed
+2
+-1
+Deleted
+Inserted
+Deleted
+Inserted
+0: 8
+1: 1
+2: 2
+3: 3

@@ -1,0 +1,22 @@
+Inserted
+Inserted
+Inserted
+Inserted
+Inserted
+5
+Insertion failed
+Duplicate
+0: 0 (0)
+1: 5 (1)
+2: 10 (2)
+3: 3 (0)
+4: 4 (0)
+Deleted
+Inserted
+5
+0: 0 (0)
+1: 10 (1)
+2: 7 (0)
+3: 3 (0)
+4: 4 (0)
+Insertion failed

@@ -1,0 +1,20 @@
+0
+Inserted
+Inserted
+Inserted
+Inserted
+5
+9
+-1
+-1
+4
+0: EMPTY
+1: EMPTY
+2: EMPTY
+3: 3 (0)
+4: EMPTY
+5: 15 (0)
+6: EMPTY
+7: 27 (0)
+8: EMPTY
+9: 9 (0)

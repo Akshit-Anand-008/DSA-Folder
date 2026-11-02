@@ -1,0 +1,260 @@
+Inserted
+Inserted
+Inserted
+3
+Deleted
+Deleted
+Inserted
+Not found
+Not found
+-1
+Inserted
+Deleted
+Inserted
+Inserted
+Inserted
+Deleted
+-1
+Not found
+Inserted
+Not found
+Not found
+Inserted
+Not found
+Inserted
+Deleted
+Inserted
+5
+Not found
+-1
+Inserted
+Duplicate
+Inserted
+Deleted
+-1
+Deleted
+Inserted
+Inserted
+Deleted
+Deleted
+Inserted
+Inserted
+Inserted
+Inserted
+Duplicate
+10
+Inserted
+Not found
+Inserted
+Deleted
+Inserted
+Deleted
+Not found
+Inserted
+Not found
+Not found
+0
+Insertion failed
+-1
+Insertion failed
+Insertion failed
+10
+Insertion failed
+Not found
+Deleted
+Inserted
+Duplicate
+Insertion failed
+Deleted
+Not found
+Inserted
+Insertion failed
+0: -26 (0)
+1: -13 (1)
+2: 27 (1)
+3: 54 (1)
+4: 15 (2)
+5: -10 (2)
+6: -22 (2)
+7: -8 (2)
+8: 31 (3)
+9: -20 (3)
+10: -57 (2)
+11: -56 (2)
+12: -40 (0)
+Deleted
+Inserted
+Insertion failed
+Insertion failed
+Insertion failed
+Deleted
+Deleted
+-1
+Not found
+Not found
+-1
+Not found
+Not found
+Deleted
+Inserted
+Deleted
+Inserted
+5
+Inserted
+Inserted
+Not found
+-1
+Insertion failed
+Insertion failed
+Insertion failed
+Not found
+-1
+Insertion failed
+-1
+Deleted
+Not found
+-1
+-1
+-1
+Inserted
+Insertion failed
+Insertion failed
+Insertion failed
+Not found
+Insertion failed
+Insertion failed
+Insertion failed
+Not found
+Insertion failed
+Duplicate
+Not found
+Duplicate
+Duplicate
+Insertion failed
+Insertion failed
+Insertion failed
+3
+Insertion failed
+Insertion failed
+Not found
+Insertion failed
+Deleted
+Not found
+Not found
+Deleted
+Inserted
+Not found
+Not found
+Inserted
+Insertion failed
+-1
+Insertion failed
+Insertion failed
+Insertion failed
+-1
+Insertion failed
+Insertion failed
+Not found
+Not found
+-1
+Not found
+Insertion failed
+Not found
+Deleted
+Inserted
+0: -1 (1)
+1: 26 (1)
+2: 40 (1)
+3: 15 (1)
+4: 3 (1)
+5: -10 (2)
+6: 43 (2)
+7: 57 (2)
+8: -57 (0)
+9: 60 (1)
+10: -43 (1)
+11: -56 (2)
+12: -28 (1)
+Duplicate
+Duplicate
+Insertion failed
+Insertion failed
+Insertion failed
+Insertion failed
+Insertion failed
+Duplicate
+Not found
+-1
+Not found
+Not found
+Duplicate
+Not found
+-1
+-1
+Not found
+Insertion failed
+Insertion failed
+Insertion failed
+Deleted
+Inserted
+Not found
+-1
+0
+-1
+Insertion failed
+Duplicate
+Insertion failed
+Insertion failed
+Insertion failed
+Deleted
+Inserted
+Insertion failed
+Insertion failed
+Not found
+Not found
+Insertion failed
+Insertion failed
+Deleted
+Not found
+Inserted
+Insertion failed
+Insertion failed
+Insertion failed
+Insertion failed
+Insertion failed
+Insertion failed
+-1
+Insertion failed
+Insertion failed
+Not found
+Not found
+Insertion failed
+Not found
+Not found
+Duplicate
+-1
+Not found
+Insertion failed
+Deleted
+Inserted
+Insertion failed
+Insertion failed
+Not found
+Duplicate
+Not found
+Insertion failed
+Duplicate
+13
+0: 23 (3)
+1: -28 (3)
+2: 40 (1)
+3: 3 (0)
+4: -10 (1)
+5: 43 (1)
+6: -48 (2)
+7: 57 (2)
+8: -20 (2)
+9: 60 (1)
+10: -56 (1)
+11: -43 (2)
+12: -29 (2)

@@ -1,0 +1,11 @@
+10
+I car
+I carpet
+I carpeted
+D carpet
+S car
+S carpet
+S carpeted
+P carp
+D car
+S carpeted

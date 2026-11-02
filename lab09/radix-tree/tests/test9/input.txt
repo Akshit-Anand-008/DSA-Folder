@@ -1,0 +1,11 @@
+10
+I abcdef
+I abcxyz
+I abcpqr
+P abc
+D abcxyz
+S abcxyz
+S abcdef
+D abcdef
+P abc
+S abcpqr

@@ -1,0 +1,32 @@
+Inserted
+Inserted
+Inserted
+Inserted
+Inserted
+Inserted
+Inserted
+Inserted
+Inserted
+Inserted
+Updated
+-1
+4
+0: 0
+1: 19
+2: EMPTY
+3: EMPTY
+4: 190
+5: 171
+6: 95
+7: 152
+8: EMPTY
+9: 57
+10: EMPTY
+11: 133
+12: EMPTY
+13: EMPTY
+14: EMPTY
+15: EMPTY
+16: 76
+17: 114
+18: EMPTY

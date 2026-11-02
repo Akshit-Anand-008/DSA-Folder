@@ -1,0 +1,30 @@
+Inserted
+Inserted
+Inserted
+Inserted
+Inserted
+Inserted
+Inserted
+Inserted
+Inserted
+Inserted
+Insertion failed
+3
+-1
+0: 0
+1: 17
+2: 102
+3: 3
+4: 34
+5: EMPTY
+6: EMPTY
+7: EMPTY
+8: 85
+9: 51
+10: EMPTY
+11: EMPTY
+12: EMPTY
+13: 136
+14: EMPTY
+15: 119
+16: 68

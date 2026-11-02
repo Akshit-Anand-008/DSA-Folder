@@ -1,0 +1,8 @@
+7
+S cat
+D cat
+P c
+I cat
+P ca
+D cat
+P ca

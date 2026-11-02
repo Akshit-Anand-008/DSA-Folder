@@ -1,0 +1,10 @@
+Inserted
+Inserted
+Inserted
+Insertion failed
+-1
+0: 0
+1: 5
+2: EMPTY
+3: EMPTY
+4: 10
