@@ -18,13 +18,19 @@ bool RollbackDSU::unite(int x, int y) {
 int RollbackDSU::size_of(int x) const { return -A[find(x)]; }
 
 int RollbackDSU::find(int x) const {
-    // Your code starts from here -- DO NOT EDIT ANYTHING ABOVE
-
-    // Your code ends here -- DO NOT EDIT ANYTHING BELOW
+    int i = x;
+    while (A[i] >= 0){ i = A[i]; }
+    return i;
 }
 
 void RollbackDSU::undo() {
-    // Your code starts from here -- DO NOT EDIT ANYTHING ABOVE
-
-    // Your code ends here -- DO NOT EDIT ANYTHING BELOW
+    Record last = history[history.size()-1];
+    history.pop_back();
+    int b = last.child;
+    int a = last.parent;
+    int v = last.child_val;
+    if(a == b){ return; }
+    A[a] -= v;
+    A[b] = v;
+    return;
 }
