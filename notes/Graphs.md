@@ -9,11 +9,11 @@ Topological sort: Possible only in a DAG, don't exist if the graph contains cycl
 Ordering of the nodes such that all the edges point forward.
 i.e every edge(u,v) is arranged such that u occurs before v.
 
-Exit time stamp or X[u] is a recorded time which indicates the exact moment when a node u's exploration is complete which means all of outgoing neighbours and sub-branches are completely explored.
+Exit time stamp or `X[u]` is a recorded time which indicates the exact moment when a node u's exploration is complete which means all of outgoing neighbours and sub-branches are completely explored.
 
 Claim: Every DAG can always be topologically sorted using DFS's exit timestamps.
 
-For any directed edge (u, v), X[v] < X[u]
+For any directed edge (u, v), `X[v]` < `X[u]`
 I am completing this problem set.
 
 Total time complexity of Dijkstra algorithm using a binary heap on V_reach vertices and E_reach edges, 
