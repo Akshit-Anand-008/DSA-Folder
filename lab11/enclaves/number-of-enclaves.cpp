@@ -1,7 +1,7 @@
 #include "number-of-enclaves.h"
 
 int flood(const vector<vector<int>>& grid, int i, int j) {
-
+    // I need to maintain another fatass grid containing if I have visited that vector or not
 }
 
 int numEnclaves(const vector<vector<int>>& grid) {

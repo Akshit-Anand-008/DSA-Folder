@@ -54,12 +54,5 @@ i.e
 2. Quadritic Probing:
 `i, i + 1^2, i + 2^2 , i + 3^2 ..`
 
-
-
-
-
-
-
-
 # Vocabulary
 Probe: to explore
